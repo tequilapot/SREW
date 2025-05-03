@@ -230,17 +230,27 @@ ul, ol {
   padding: 0.8rem 0; /* Reduced padding for more compact header */
 }
 
+/* Logo styling */
 .logo a {
   display: flex;
   align-items: center;
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: var(--text-primary);
+  text-decoration: none;
 }
 
-.logo a span {
-  color: var(--primary);
-  margin-right: 0.25rem;
+.site-logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  display: inline-block;
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  .site-logo {
+    height: 30px;
+  }
 }
 
 .main-nav ul {
