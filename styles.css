@@ -1,8 +1,8 @@
 /* Base Styles and Variables */
 :root {
   /* Primary Colors */
-  --primary: #1560BD;
-  --primary-hover: #0D4C9E;
+  --primary: #1e7a8e; /* Teal-blue color from the logo */
+  --primary-hover: #166271; /* Darker shade for hover states */
   --secondary: #1E293B;
   --secondary-hover: #334155;
   --accent: #3B82F6;
